@@ -1,0 +1,27 @@
+{
+  "name": "mankekito-npm",
+  "version": "1.15.0",
+  "description": "NPM oficial del Bot de Discord **Mankekito**",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "discord.js",
+    "discord",
+    "anime",
+    "actions",
+    "hug",
+    "kiss",
+    "discord-bots",
+    "discord-gifs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankewhe/mankekito-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mankewhe/mankekito-npm/issues"
+  },
+  "homepage": "https://github.com/mankewhe/mankekito-npm#readme",
+  "author": "Mankeke#0222",
+  "license": "MIT"
+}
