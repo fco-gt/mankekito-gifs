@@ -57,9 +57,13 @@ client.login("token-secreto");
 Discord.js v14
  
  ```js
- const { Client, MessageEmbed } = require("discord.js");
+ const { Client, EmbedBuilder, Events, GatewayIntentBits } = require("discord.js");
  const client = new Client({
-    intents: ['Guilds']
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+    ],
 });
  
  client.on("ready", () => {
@@ -72,10 +76,10 @@ client.on('messageCreate', async (message) => {
     const gifs = new mankekito.Client()
     let url = await gifs.jojopose()
     
-    const embed = new MessageEmbed()
+    const embed = new EmbedBuilder()
     .setDescription(`${message.author.tag} esta posando`)
     .setImage(url)
-    .setColor("RANDOM")
+    .setColor("00FF00")
     message.channel.send({ embeds: [embed] });
   }
 });  
