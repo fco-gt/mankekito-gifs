@@ -19,12 +19,6 @@ npm i mankekito-gifs
 | `wallpaper` | Wallpapers para ordenador |
 | `mobilewallpaper` | Wallpapers para celulares |
 
-### NSFW
-
-| Opcion | Funcion |
-| -------- | ----------- |
-| `ahegao` | Gifs de ahegaos |
-
 ## Ejemplos
  
  Discord.js v12
